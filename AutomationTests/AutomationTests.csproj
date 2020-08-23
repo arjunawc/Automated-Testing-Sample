@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="12.2.1" />
+    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
+    <PackageReference Include="RestSharp" Version="106.6.10" />
+    <PackageReference Include="SpecFlow" Version="3.1.80" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.1.80" />
+    <PackageReference Include="SpecFlow.NUnit.Runners" Version="3.1.80" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.1.80" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutomationTests.Framework\AutomationTests.Framework.csproj" />
+    <ProjectReference Include="..\Automatted Testing Sample\Automatted Testing Sample.csproj" />
+  </ItemGroup>
+
+</Project>
